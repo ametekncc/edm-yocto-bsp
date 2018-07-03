@@ -12,7 +12,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir edm_yocto
 $: cd edm_yocto
-$: repo init -u https://github.com/TechNexion/edm-yocto-bsp.git -b krogoth_4.1.y_GA
+$: repo init -u https://github.com/ametekncc/edm-yocto-bsp.git -b krogoth_4.1.y_GA
 $: repo sync -j8
 
 == Prepare WIFI/BT firmware
