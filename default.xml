@@ -26,7 +26,7 @@
   <project remote="freescale" revision="a165068f8a0d1cf29aabe4b4053f28be1c2aa492" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
   <project remote="OSSystems" revision="393d2aa15da21ffa532c3cd77d8cb91de997cd31" name="meta-browser" path="sources/meta-browser" />
-  <project remove="ncc" name="meta-qt4" path="sources/meta-qt4" revision="morty" />
+  <project remote="ncc" name="meta-qt4" path="sources/meta-qt4" revision="morty" />
   <project remote="QT5" revision="ccae79be69c5268df3b47e4e14cea0591c39a531" name="meta-qt5" path="sources/meta-qt5" />
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="krogoth_4.1.y" />
