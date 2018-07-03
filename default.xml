@@ -10,7 +10,8 @@
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
   <remote fetch="https://github.com/TechNexion" name="edm-release" />
-
+  <remote fetch="git://github.com/ametekncc" name="ncc" />
+  
   <project remote="yocto" revision="f5da2a5913319ad6ac2141438ba1aa17576326ab" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="be78894e4682f111575470fb23e51e6ba523508d" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
@@ -25,6 +26,7 @@
   <project remote="freescale" revision="a165068f8a0d1cf29aabe4b4053f28be1c2aa492" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
   <project remote="OSSystems" revision="393d2aa15da21ffa532c3cd77d8cb91de997cd31" name="meta-browser" path="sources/meta-browser" />
+  <project remove="ncc" name="meta-qt4" path="sources/meta-qt4" revision="morty" />
   <project remote="QT5" revision="ccae79be69c5268df3b47e4e14cea0591c39a531" name="meta-qt5" path="sources/meta-qt5" />
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="krogoth_4.1.y" />
